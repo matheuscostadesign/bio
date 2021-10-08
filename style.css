@@ -2,6 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .btn {
